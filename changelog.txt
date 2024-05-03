@@ -1,0 +1,26 @@
+Version 1.0: Basic Album Downloading
+Initial version of the script supporting the download of full albums from KHInsider.
+Supports input of album URLs or names via command-line arguments.
+Downloads MP3 files with a progress bar for each file.
+Organizes downloaded files into separate folders based on the album name.
+Version 1.1: Verbose Mode and Error Handling
+Added verbose mode to provide detailed information about the download process.
+Implemented error handling for invalid input and network issues.
+Improved output messages for better user feedback during execution.
+Version 1.2: FLAC File Preference
+Introduced the option to download FLAC files instead of MP3, with FLAC being the preferred format if available.
+Enhanced download logic to prioritize FLAC files when specified.
+Version 1.3: Input File Support
+Extended input options to support text files containing lists of album URLs or names.
+Implemented proper handling of input files to extract album information for download.
+Version 1.4: Full URL Support
+Added support for directly specifying full URLs alongside album names.
+Streamlined input processing to handle both full URLs and album names seamlessly.
+Version 1.5: Enhanced Progress Display
+Optimized progress bar display for smoother and more accurate tracking of download progress.
+Improved user experience with real-time updates on download status.
+Version 1.6: Documentation and Refactoring
+Updated script description and changelog for better clarity and organization.
+Conducted code refactoring and optimization for improved readability and maintainability.
+Version 1.7: Bug Fixes and Stability Improvements
+Addressed minor bugs and edge cases to enhance script stability.
